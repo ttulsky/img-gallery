@@ -24,8 +24,6 @@ export default async function dynamicPage() {
 
   return (
     <div className="d-flex flex-column align-items-center">
-      return NextResponse.json({Error: 'No query provided', status: 400});
-
       <Image
         src={image.urls.raw}
         width={width}
