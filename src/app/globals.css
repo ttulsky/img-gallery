@@ -67,3 +67,7 @@ a {
 img {
   background-color: lightgrey;
 }
+
+.home_text {
+  text-decoration: none important!;
+}
