@@ -39,7 +39,7 @@ export default function SearchPage() {
     <div>
       <Alert>
         This page <strong>fetches data client side.</strong> in order not to
-        leak API credentials, the request is dent to a{" "}
+        leak API credentials, the request is sent to a{" "}
         <span style={{ color: "mediumorchid" }}>NextJS </span>
         <strong>route handler</strong> that runs on the server. this route
         handler then fetches the data from the Unsplash API and returns it to
