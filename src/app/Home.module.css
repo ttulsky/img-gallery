@@ -1,0 +1,9 @@
+.home_text a p {
+  text-decoration: none;
+}
+
+.home_text a:hover,
+.home_text a:focus,
+.home_text a:active {
+  text-decoration: underline;
+}
